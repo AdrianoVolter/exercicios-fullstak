@@ -25,6 +25,7 @@ body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
   }
   .navbar img{
     float: left;
@@ -39,8 +40,10 @@ body{
   }
   
   .navbar a:hover {
-    background: #ddd;
-    color: rgb(218, 123, 123);
+    background: #0011ff;
+    color: rgb(253, 253, 253);
+    transition-duration: .3s;
+    
   }
   .main {
     margin-top: 70px; 
