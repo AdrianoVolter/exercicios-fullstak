@@ -3,6 +3,9 @@ body{
 }
 
 h1{
+    background-image: url("pic_trulli.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     color: brown;
