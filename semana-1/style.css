@@ -22,3 +22,10 @@ img{
     border: solid 2px black;
     margin-top: 20px;
 }
+
+.imagens{
+    float: left;
+    
+    padding: 5px;
+    
+}
