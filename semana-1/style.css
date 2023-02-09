@@ -1,5 +1,6 @@
 *{
   margin-left: 0;
+  margin-right: 0;
 }
 body{
     background-color: yellow;
@@ -64,6 +65,13 @@ h2{
     color: brown;
     margin: 10px;
 }
+h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color: white;
+    margin: 10px 10px;
+    text-align: center;
+}
 
 p{
     font-size: 14px;
@@ -78,10 +86,23 @@ img{
 }
  iframe{
   margin: 10px;
+  padding-bottom: 350px;
  }
  
 .imagens{
     float: left;
     padding: 5px;
     
+}
+
+footer{
+  background-color: #899;
+  margin-bottom: -30px;
+  width: 100%;
+  
+}
+
+footer p{
+  text-align: center;
+  color: white;
 }
