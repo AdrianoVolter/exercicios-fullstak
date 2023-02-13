@@ -8,8 +8,8 @@
     
 }
 body{
-    background-image: url(/images/criptomoedas-1170x780.jpg.webp)  ; 
-    background-position: center;
+    background-image: url(images/Vecteeze_Background_Technology__generated.jpg);
+    background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -22,7 +22,7 @@ body{
 
 .box{
     display: flex;
-    width: 930px;
+    width: 730px;
 }
 .img-box{
     background-color: rgba(255, 255, 255, 0.5);
@@ -41,12 +41,16 @@ body{
     text-align: center;
     padding: 20px;
     
-
 }
 
 .img-box p {
     font-weight: bold;
     color: #3D3D3D;
+}
+.img-box h1{
+    font-size: 35px;
+    color: #191970;
+    
 }
 
 
@@ -58,7 +62,8 @@ body{
     border-radius: 0 20px 20px 0;
 }
 .form-box h2{
-    font-size: 30px;
+    font-size:25px;
+    color:#191970;
 }
 .form-box p{
     font-weight: bold;
@@ -86,7 +91,7 @@ form .input-group input{
     background-color: rgba(255, 255, 255, 0.32);
     border-radius: 20px;
     outline: none;
-    border: 2px solid black;
+    border: 2px solid #191970;
     padding: 15px;
     font-size: 15px;
     color: #616161;
@@ -108,8 +113,6 @@ form .input-group button{
     cursor: pointer;
     font-size: 16px;
 }
-
-
 
 @media (max-width:930px) {
     .img-box{
