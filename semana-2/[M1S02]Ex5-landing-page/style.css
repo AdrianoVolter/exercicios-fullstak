@@ -9,6 +9,7 @@
 }
 body{
     background-image: url(images/Vecteeze_Background_Technology__generated.jpg);
+    box-shadow: inset 0 0 0 1000px rgba(66, 188, 245, 0.644);
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,12 +18,26 @@ body{
     justify-content: center;
     padding: 20px;
     min-height: 100vh;
+    
    
 }
 
 .box{
     display: flex;
     width: 730px;
+
+}
+
+.box footer{
+    background-color: #899;
+    margin-top: 20px;
+    margin-bottom: 0;
+    width: 100%;
+    display: flex;
+    width:100%; 
+    bottom:0; 
+    position:absolute;
+    padding: 0;
 }
 .img-box{
     background-color: rgba(255, 255, 255, 0.5);
