@@ -1,2 +1,6 @@
-# Exercicios curso Desenvolvedor FullStak
+# Exercícios curso Desenvolvedor FullStak
+
+
+
+
 ## 
