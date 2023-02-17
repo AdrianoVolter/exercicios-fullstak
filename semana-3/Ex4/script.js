@@ -13,3 +13,4 @@ if(valorPedido < 10000.00){
     console.log("Classificação do pedido PLATINUM !")
     alert("Classificação do pedido PLATINUM !")
 }
+
