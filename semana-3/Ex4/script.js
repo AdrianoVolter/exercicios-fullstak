@@ -1,7 +1,5 @@
 let valorPedido = parseFloat(prompt("Digite valor do pedido:"))
 
-
-
 if(valorPedido < 10000.00){
     console.log("Classificação do pedido BRONZE !")
     alert("Classificação do pedido BRONZE !")
