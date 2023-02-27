@@ -12,6 +12,7 @@ export class NegociacaoController{
         this.#campoData = document.getElementById("data");
         this.#campoQuantidade  =document.getElementById("quantidade");
         this.#campoValor = document.getElementById("valor");
+        //console.log(this.#campoValor)
 
     }
 

@@ -9,6 +9,6 @@ export class ListaNegociacoes{
     get negociacoes(){
         return [].concat(this.#negociacoes);
 
-         console.log(this.#negociacoes)
+         
     }
 }

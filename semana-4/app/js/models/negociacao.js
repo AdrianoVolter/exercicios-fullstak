@@ -1,10 +1,14 @@
 export class Negociacao{
 
+    #data;
+    #quantidade;
+    #valor
+
     constructor(data, quantidade, valor){
 
-        this.data =Date(data);
-        this.quantidade = Number(quantidade);
-        this.valor = Number(valor);
+        this.#data =(data.value);
+        this.#quantidade = Number(quantidade);
+        this.#valor = Number(valor);
 
     };
 
@@ -14,12 +18,12 @@ export class Negociacao{
     };
 
     get quantidade(){
-        return this.quantidade;
+        return this.#quantidade;
 
     };
 
     get valor(){
-        return this.valor ;
+        return this.#valor ;
     };
    
 
