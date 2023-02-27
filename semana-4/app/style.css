@@ -9,7 +9,7 @@
 body{
     
     background-position: center; 
-    padding: 20px;
+    padding: 40px;
     min-height: 100vh;
    
 }
@@ -81,7 +81,6 @@ form .input-group input{
     width: 100%;
     height: 47px;
     background-color: rgba(255, 255, 255, 0.32);
-    border-radius: 10px;
     outline: none;
     border: 2px solid #191970;
     padding: 15px;
@@ -104,3 +103,28 @@ form .input-group button{
     font-size: 16px;
 }
 
+table {
+    border: 2px solid #191970;
+    border-collapse: collapse;
+    margin: 5px;
+    
+  }
+
+  s th,
+tr,
+td {
+  border: solid 1px #191970;
+  color: #3d3d3d;
+  
+}
+
+section {
+  background: rgba(250, 246, 246, 0.192);
+  border-radius: 10px;
+  padding: 20px;
+  width: 450px;
+  margin : 20px;
+  margin-top: 20px;
+  /* border: 1px solid #888; */
+}
+  
