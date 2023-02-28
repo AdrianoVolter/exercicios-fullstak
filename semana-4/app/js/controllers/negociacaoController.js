@@ -15,6 +15,7 @@ export class NegociacaoController{
         //console.log(this.#campoValor)
 
     }
+    
 
     criarNegociacao(){
 
@@ -23,8 +24,8 @@ export class NegociacaoController{
         let valor =this.#campoValor.value;
         let negocio = new Negociacao(data, quantidade, valor);
         this.#negociacoes.adcicionar(negocio)
-        console.log(this.#negociacoes.negociacoes);
-            
+        
+        console.log(this.#negociacoes.negociacoes); 
     };
 
 };

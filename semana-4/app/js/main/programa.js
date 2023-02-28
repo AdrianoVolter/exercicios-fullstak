@@ -6,5 +6,6 @@ const formulario = document.getElementById("form")
 formulario.addEventListener('submit', (evt) => {
     evt.preventDefault();
     controller.criarNegociacao();
-    console.log("click")
+    //console.log(formulario.value)
+
 });
