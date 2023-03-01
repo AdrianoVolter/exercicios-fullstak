@@ -9,11 +9,3 @@ console.log(arrayNumeros);
 
 // console.log(arrayInvertido);
 
-function arrayInvertido(){
-
-
-
-
-
-    
-}
