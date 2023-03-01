@@ -1,5 +1,6 @@
 import { Negociacao } from "../models/negociacao.js";
 import { ListaNegociacoes } from "../models/listaNegociacoes.js";
+import { NegociacoesView } from "../views/negociacoesview.js";
 export class NegociacaoController{
 
     #campoData;
@@ -13,7 +14,8 @@ export class NegociacaoController{
         this.#campoQuantidade  =document.getElementById("quantidade");
         this.#campoValor = document.getElementById("valor");
         //console.log(this.#campoValor)
-
+        this.negociacoesView = new NegociacoesView(document.querySelector("#dados"))
+        this.negociacoesView.update(this.#negociacoes)
     }
     
 
