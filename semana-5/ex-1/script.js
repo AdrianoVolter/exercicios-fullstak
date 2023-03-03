@@ -1,5 +1,3 @@
-const mensagemOla=(msg)=>{
-    return msg;
-}
+const mensagemOla = () => console.log(" Ola Mundo! ")
 
-console.log(mensagemOla("Ola Mundo!"))
+mensagemOla()
