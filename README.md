@@ -4,33 +4,29 @@
 ```js
 
 
-alert("Ola Mundo");
+
 
 
 ```
 ## LAB365 - SenaiSc
 
-```js
-// Arrays  exercício 5 [S05]
-var arrayNumeros = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-let arrayInvertido = [];
+```jsx
+// React  exercício 6 [S06]
+
+function Card(props) {
+  return ( 
+    <div>
+      <img src={props.imagem} width={props.width} href={props.imagem}/>
+      <h3>{props.nome}</h3>
+      <p>{props.idade}</p>
+      <img src={props.iconGithub} alt="github" width={50} />
+      
 
 
-console.log(arrayNumeros);
+    </div>
+   );
+}
 
-arrayInvertido = arrayNumeros.reverse()
-
-console.log(arrayInvertido)
-
-// Saida
-// [
-//   1, 2, 3, 4, 5,
-//   6, 7, 8, 9
-// ]
-// [
-//   9, 8, 7, 6, 5,
-//   4, 3, 2, 1
-// ]
-
+export default Card;
 
 ```
