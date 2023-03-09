@@ -5,6 +5,7 @@ function App() {
   const img = "https://avatars.githubusercontent.com/u/91354299?v=4"
   const no = "Adriano Jose Volter"
   const id= "38"
+  //const iconGit = "https://github.com/AdrianoVolter"
 
 
   return(
@@ -13,6 +14,7 @@ function App() {
         imagem={img}
         nome= {no}
         idade= {id}
+        
         />
 
         

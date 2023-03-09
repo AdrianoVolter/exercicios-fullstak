@@ -10,8 +10,13 @@ function Card(props){
             <div className='info'>
                 <h2>Nome : {props.nome}</h2>
                 <p>Idade : {props.idade} anos</p>
-                 <box-icon  type='logo' name='github'></box-icon>
-                 <box-icon type='logo' name='linkedin-square'></box-icon>
+                <a href='https://github.com/AdrianoVolter' target='_blank'>
+                    <box-icon size="md" type='logo' name='github'></box-icon>
+                </a>
+                <a href="https://www.linkedin.com/in/adrianovolter/" target='_blank'>
+                    <box-icon size="md" type='logo' name='linkedin-square'></box-icon>
+                </a>
+                 
             </div>
         </div>
 
