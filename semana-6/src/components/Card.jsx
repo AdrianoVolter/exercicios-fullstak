@@ -1,6 +1,7 @@
 import './Card.css'
 function Card(props){
 
+
     return(
 
         <div className="caixa">
@@ -10,11 +11,11 @@ function Card(props){
             <div className='info'>
                 <h2>Nome : {props.nome}</h2>
                 <p>Idade : {props.idade} anos</p>
-                <a href='https://github.com/AdrianoVolter' target='_blank'>
+                <a href={props.github} target='_blank'>
                     <box-icon size="md" type='logo' name='github'></box-icon>
                 </a>
-                <a href="https://www.linkedin.com/in/adrianovolter/" target='_blank'>
-                    <box-icon size="md" type='logo' name='linkedin-square'></box-icon>
+                <a href={props.linkedin} target='_blank'>
+                    <box-icon size='md' type='logo' name='linkedin-square'></box-icon>
                 </a>
                  
             </div>
