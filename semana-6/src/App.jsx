@@ -3,24 +3,17 @@ import Card from './components/Card'
 import 'boxicons'
 
 function App() { 
-
-const imagem = "https://avatars.githubusercontent.com/u/91354299?v=4"
-const nome = "Adriano Jose Volter"
-const idade ="38"
-const linkGithub = 'https://github.com/AdrianoVolter'
-const linkLinkedin = "https://www.linkedin.com/in/adrianovolter/"
+  const usuario = {
+    imagem : "https://avatars.githubusercontent.com/u/91354299?v=4",
+    nome : "Adriano Jose Volter",
+    idade :"38",
+    github : 'https://github.com/AdrianoVolter',
+    linkedin : "https://www.linkedin.com/in/adrianovolter/",
+  }
   
   return(
     <div className='geral'>
-
-       <Card  
-        imagem = {imagem}
-        nome = {nome}
-        idade = {idade}
-        github ={linkGithub}
-        linkedin = {linkLinkedin}
-        />
-
+       <Card  usuario = {usuario} />
     </div>
   )
 }
@@ -37,13 +30,6 @@ export default App
 
 
 
-// const usuario = {
-//   imagem : "https://avatars.githubusercontent.com/u/91354299?v=4",
-//   nome : "Adriano Jose Volter",
-//   idade :"38",
-//   linkGithub : 'https://github.com/AdrianoVolter',
-//   linkLinkedin : "https://www.linkedin.com/in/adrianovolter/",
-// }
 
 
 
