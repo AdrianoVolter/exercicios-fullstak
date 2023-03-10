@@ -11,7 +11,7 @@
     align-items: center; */
     background-color: rgb(58, 144, 225);
     width: 400px;
-    height: 200px;
+    height: 170px;
     border: 1px solid #888;
     border-radius: 15px;
     
@@ -41,7 +41,7 @@ img{
     font-size: 17px;
 }
 .icons{
-    
+   
         bottom: 30;
         position: fixed;
         width: 90%;
@@ -51,4 +51,7 @@ img{
     padding: 10px;
     margin: 10px; */
     
+}
+a{
+    padding: 10px;
 }

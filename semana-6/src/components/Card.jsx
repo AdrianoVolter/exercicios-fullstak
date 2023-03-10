@@ -9,7 +9,7 @@ function Card({usuario}){
                 <img src={usuario.imagem} alt="github" />
             </div>
             <div className='info'>
-                <h2>Nome : {usuario.nome}</h2>
+                <h2>{usuario.nome}</h2>
                 <p>Idade : {usuario.idade} anos</p>
                 <a href={usuario.github} target='_blank'>
                     <box-icon size="md" type='logo' name='github'></box-icon>
