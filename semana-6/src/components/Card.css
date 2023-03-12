@@ -6,10 +6,7 @@
 
     display: flex;
     place-items: center;
-    /* justify-content: center;
-    flex-direction: column;
-    align-items: center; */
-    background-color: rgb(58, 144, 225);
+    background-color: rgb(141, 158, 143);
     width: 400px;
     height: 170px;
     border: 1px solid #888;
@@ -21,8 +18,9 @@
 img{
     
     margin: 20px;
-    width:110px;
+    width:115px;
     border-radius: 50%;
+    border: 1px solid #0a71f7;
 }
 
 .imagem{
@@ -34,7 +32,7 @@ img{
 }
 
 .info{
-    color: white;
+    color: rgb(70, 65, 65);
     font-size: 12px;
 }
 .info p {
@@ -46,11 +44,7 @@ img{
         position: fixed;
         width: 90%;
         text-align: center;
-/*     
-    place-items: bottom;
-    padding: 10px;
-    margin: 10px; */
-    
+
 }
 a{
     padding: 10px;
