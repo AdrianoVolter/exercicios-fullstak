@@ -6,7 +6,7 @@ function Card({usuario}){
 
         <div className="caixa">
             <div className="imagem">
-                <img src={usuario.imagem} alt="github" />
+                <img src={usuario.imagem} alt={usuario.alt} />
             </div>
             <div className='info'>
                 <h2>{usuario.nome}</h2>

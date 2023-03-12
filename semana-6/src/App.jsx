@@ -5,6 +5,7 @@ import 'boxicons'
 function App() { 
   const usuario = {
     imagem : "https://avatars.githubusercontent.com/u/91354299?v=4",
+    alt: "Perfil github",
     nome : "Adriano Jose Volter",
     idade :"38",
     github : 'https://github.com/AdrianoVolter',
