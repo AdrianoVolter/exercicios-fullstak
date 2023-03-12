@@ -1,3 +1,4 @@
+# link card no vercel *https://card-react.vercel.app/*
 # Exercícios curso Desenvolvedor FullStak
 
 
