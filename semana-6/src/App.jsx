@@ -10,6 +10,7 @@ function App() {
     idade :"38",
     github : 'https://github.com/AdrianoVolter',
     linkedin : "https://www.linkedin.com/in/adrianovolter/",
+   
   }
   
   return(

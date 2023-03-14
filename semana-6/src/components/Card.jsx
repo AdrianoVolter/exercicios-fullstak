@@ -11,6 +11,7 @@ function Card({usuario}){
             <div className='info'>
                 <h2>{usuario.nome}</h2>
                 <p>Idade : {usuario.idade} anos</p>
+                
                 <a href={usuario.github} target='_blank'>
                     <box-icon size="md" type='logo' name='github'></box-icon>
                 </a>

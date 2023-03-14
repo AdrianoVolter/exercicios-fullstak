@@ -1,6 +1,6 @@
 import { Negociacao } from "../models/negociacao.js";
 import { ListaNegociacoes } from "../models/listaNegociacoes.js";
-//import { NegociacoesView } from "../views/negociacoesview.js";
+import { NegociacoesViews } from "../views/negociacoesView.js"
 export class NegociacaoController{
 
     #campoData;
@@ -10,26 +10,27 @@ export class NegociacaoController{
 
     constructor(){
 
-        this.#campoData = document.getElementById("data");
-        this.#campoQuantidade  =document.getElementById("quantidade");
-        this.#campoValor = document.getElementById("valor");
-        //console.log(this.#campoValor)
-        //this.negociacoesView = new NegociacoesView(document.querySelector("#dados"))
-        //this.negociacoesView.update(this.#negociacoes)
+        this.#campoData = document.querySelector('#data');
+        this.#campoQuantidade = document.querySelector('#quantidade');
+        this.#campoValor = document.querySelector('#valor');
+        this.negociacoesView = new NegociacoesViews('#negociacoesView');
+        this.negociacoesView.update(this.#negociacoes);
+
     }
     
-
     criarNegociacao(){
 
         let d_data = this.#campoData;
-        d_data = new Date(this.#campoData.value);
-        //let data = `${d_data.getDate()}/${(d_data.getMonth()  + 1)}/${d_data.getFullYear()}`;
-        let quantidade = this.#campoQuantidade.value;
-        let valor =this.#campoValor.value;
-        let negocio = new Negociacao(data, quantidade, valor);
-        this.#negociacoes.adcicionar(negocio)
-        
-        console.log(this.#negociacoes.negociacoes); 
+        let d_quantidade = this.#campoQuantidade;
+        let d_valor = this.#campoValor;
+        let data = new Date(d_data.value.replace(/-/g, ','));
+        let quantidade = parseInt(d_quantidade.value);
+        let valor = parseFloat(d_valor.value);
+        let negociacao = new Negociacao(data, quantidade, valor);
+        this.#negociacoes.adiciona(negociacao);
+        this.negociacoesView.update(this.#negociacoes);
+        console.log(this.#negociacoes);
+
     };
 
 };
