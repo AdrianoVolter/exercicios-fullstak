@@ -1,6 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import Header from "./components/Header";
+import GrupoInput from "./components/GrupoInput";
+//  import "./App.css";
 
 
-export default App
+export const App = () => {
+  return (
+    <div>
+      <Header titulo="Negociações" />
+      <div className="container">
+      
+      <GrupoInput />
+        {/* OS COMPONENTES SERÃO ENCAIXADOS AQUI! */}
+      </div>
+    </div>
+  );
+};
+

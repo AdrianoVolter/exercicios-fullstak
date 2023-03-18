@@ -1,4 +1,6 @@
 import './Card.css'
+
+
 function Card({usuario}){
 
 
