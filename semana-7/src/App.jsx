@@ -1,9 +1,7 @@
-import Header from "./components/Header";
-import GrupoInput from "./components/GrupoInput";
-//  import "./App.css";
+import  Header  from "./components/Header";
+import  GrupoInput  from "./components/GrupoInput";
 
-
-export const App = () => {
+function App() {
   return (
     <div>
       <Header titulo="Negociações" />
@@ -16,3 +14,4 @@ export const App = () => {
   );
 };
 
+export default App;
