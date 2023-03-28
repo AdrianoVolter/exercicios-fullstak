@@ -1,5 +1,5 @@
 function Footer() {
-    return ( <h3>Desenvolvido por Bruno Costa</h3> );
+    return ( <p>Desenvolvido por: Adriano Volter</p> );
 }
 
 export default Footer;
