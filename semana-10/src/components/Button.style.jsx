@@ -1,8 +1,9 @@
 import styled from "styled-components";
+import { theme } from "./Theme";
 
 
 export const SCButton2 = styled.button`
-    background-color: ${props => props.backgroundColor || "#000"};
+    background-color: ${props => props.backgroundColor || theme.colors.primary};
     width: 200px;
     height: 100px;
     color: #fff;
@@ -10,7 +11,7 @@ export const SCButton2 = styled.button`
     border-radius: 5px;
     border: none;
     cursor: pointer;
-    font-size: 16px;
+    font-size: ${theme.size.large };
     font-weight: bold;
     transition: all 0.3s ease-in-out;
     &:hover {

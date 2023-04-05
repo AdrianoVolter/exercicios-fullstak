@@ -1,6 +1,7 @@
 import {  SCButton2 } from "./components/Button.style"
 import { Wrapper } from "./components/Wrapper"
 import Botao from "./components/Botao"
+import { theme } from "./components/Theme"
 
 function App() {
   
@@ -19,7 +20,7 @@ function App() {
 
       <SCButton2 >Excluir</SCButton2><br />
       <SCButton2 >Excluir</SCButton2><br />
-      <Botao backgroundColor="#888">Excluir</Botao>
+      <Botao backgroundColor={theme.colors.secondary}>Excluir</Botao>
     </Wrapper>
   )
 }
