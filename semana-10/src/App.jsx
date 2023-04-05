@@ -1,4 +1,4 @@
-import { SCButton, SCButton2 } from "./components/Button.style"
+import {  SCButton2 } from "./components/Button.style"
 import { Wrapper } from "./components/Wrapper"
 
 function App() {
@@ -6,19 +6,18 @@ function App() {
 
   return (
     <Wrapper >
-      <SCButton
-        onClick={() => {
-          console.log("clicked button 1")
-        }}
-      >Incluir</SCButton>
-      <SCButton2
-        onClick={() => {
-          console.log("clicked button 2")
-        }}
-      >
-        Excluir
-        </SCButton2>
-  
+      <SCButton2 
+        backgroundColor="blue"
+      >Excluir
+      </SCButton2><br />
+      
+      <SCButton2 
+        backgroundColor="red"
+      >Excluir
+      </SCButton2><br />
+
+      <SCButton2 >Excluir</SCButton2><br />
+      <SCButton2 >Excluir</SCButton2>
     </Wrapper>
   )
 }
